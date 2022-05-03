@@ -1,0 +1,72 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    padding: 0;
+    background: #222;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('david-marcu-78A265wPiO4-unsplash.jpg');
+    font-size:120%;   
+    background-size: cover;
+}
+.card
+{
+    background: #000000d0;
+    color: white;
+    padding : 2em;
+    border-radius: 30px;
+    width : 100%;
+    max-width:420px;
+    margin:1em;
+
+}
+.search
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin : 0.5em;
+    border-radius: 50%;
+    border:none;
+    height:44px;
+    width:44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color:white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    background: #7c7c7c6b;
+}
+.search-bar
+{
+       
+    border:none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color:white;
+    outline: none;
+    font-family: inherit;
+    font-size: 105%;
+    width : calc(100% - 100px);
+}
+.temp
+{
+    margin:0;
+    margin-bottom: 0.4em;
+}
+
+.description
+{
+    text-transform: capitalize;
+
+    
+    display: flex;
+    align-items: center;
+}
